@@ -1,0 +1,23 @@
+{
+  "name": "automation-fw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e": "cypress run --browser=chrome -e TAGS=\"@e2e\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.1.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.5",
+    "@types/node": "^24.0.3",
+    "cucumber": "^6.0.7",
+    "cypress": "^14.2.0",
+    "esbuild": "^0.25.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,479 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "sales-flow-for-cashier;validate-sale-summary-dashboard-is-updated-after-submitting-sale-for-given-items",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Validate sale summary dashboard is updated after submitting sale for given items",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 432000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is on \"select cashier\" page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user \"select cashier\" name \"Cashier 1\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "validate the details of graph on \"Sales Dashboard\" page for \"Cashier 1\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2232000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user clicks on \"Add Sale\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Item Name",
+                      "Quantity"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Apple",
+                      "2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Orange",
+                      "1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Strawberries",
+                      "3"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user adds the following items:",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 853000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user submits the sale",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 154000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "verify sales summary should be updated for \"Cashier 1\" on \"Sales Dashboard\" page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2073000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "sales-flow-for-cashier;validate-sale-summary-dashboard-is-updated-after-submitting-sale-for-given-items",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Validate sale summary dashboard is updated after submitting sale for given items",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 106000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is on \"select cashier\" page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user \"select cashier\" name \"Cashier 2\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 232000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "validate the details of graph on \"Sales Dashboard\" page for \"Cashier 2\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user clicks on \"Add Sale\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Item Name",
+                      "Quantity"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Apple",
+                      "2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Orange",
+                      "1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Strawberries",
+                      "3"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user adds the following items:",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 776000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user submits the sale",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "verify sales summary should be updated for \"Cashier 2\" on \"Sales Dashboard\" page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2244000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "sales-flow-for-cashier;validate-user-can-switch-the-cashier-and-add-more-sales",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Validate user can switch the cashier and add more sales",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is on \"select cashier\" page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "user \"select cashier\" name \"Cashier 3\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "validate user is on \"Sales Dashboard\" page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "user clicks on \"Switch Cashier\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "user \"select cashier\" name \"Cashier 2\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "validate the details of graph on \"Sales Dashboard\" page for \"Cashier 2\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "user clicks on \"Add Sale\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Item Name",
+                      "Quantity"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Apple",
+                      "2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Orange",
+                      "1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Strawberries",
+                      "3"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 30,
+            "name": "user adds the following items:",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "user submits the sale",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "verify sales summary should be updated for \"Cashier 2\" on \"Sales Dashboard\" page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "sales-flow-for-cashier",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Sales Flow for Cashier",
+    "tags": [],
+    "uri": "cypress\\e2e\\features\\add_sales.feature"
+  }
+]

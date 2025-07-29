@@ -1,0 +1,14 @@
+{
+    "stepDefinitions":[
+        "cypress/e2e/features/[filepart].js",
+        "cypress/e2e/step_definitions/*.js"
+    ],
+    "html":{
+        "enabled": true,
+        "output": "reports/cucumber-html/report.html"
+    },
+    "json":{
+        "enabled": true,
+        "output": "reports/cucumber-json/cucumber-reports.json"
+    }
+}
